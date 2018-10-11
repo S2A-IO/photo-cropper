@@ -1,0 +1,10 @@
+{
+  "name": "photo-cropper",
+  "version": "1.0",
+  "description": "Crop photo",
+  "keywords": [
+    "photo-cropper"
+  ],
+  "license": "UNLICENSED",
+  "author": "RIKSOF (Private) Limited <info@riksof.com>"
+}
