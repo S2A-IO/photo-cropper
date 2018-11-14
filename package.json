@@ -1,10 +1,26 @@
 {
-  "name": "photo-cropper",
+  "name": "@s2a/photo-cropper",
   "version": "1.0.0",
   "description": "Crop photo",
   "keywords": [
     "photo-cropper"
   ],
   "license": "UNLICENSED",
-  "author": "RIKSOF (Private) Limited <info@riksof.com>"
+  "repository": {
+   "type": "git",
+   "url": "git://github.com/S2A-IO/photo-cropper.git"
+  },
+  "scripts": {},
+  "author": {
+    "name": "RIKSOF (Private) Limited",
+    "email": "info@riksof.com"
+  },
+  "contributors": [
+   {
+     "name": "Awais Khan",
+     "email": "info@riksof.com"
+   }
+ ],
+ "homepage": "https://s2a.io",
+ "dependencies": {}
 }
