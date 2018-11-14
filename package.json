@@ -1,7 +1,7 @@
 {
   "name": "@s2a/photo-cropper",
   "version": "1.0.0",
-  "description": "Crop photo",
+  "description": "Crop photo is used to crop/resize photos.",
   "keywords": [
     "photo-cropper"
   ],
