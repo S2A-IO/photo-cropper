@@ -4,6 +4,7 @@
  * 2- Crop images in free shape dimensions ( for free shape cropping give -1 in ratio argument ).
  * 3- Crop images in same as given aspect ratio ( for other cropping give any value in ratio argument ).
  */
+"use strict";
 class CropImage {
 
   /**
@@ -388,3 +389,4 @@ class CropImage {
     this.canvas.renderAll();
   }
 }
+module.exports = CropImage;
