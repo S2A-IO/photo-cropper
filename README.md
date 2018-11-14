@@ -2,7 +2,7 @@
 Crop Photo feature for S2A
 
 - [Installation](#installation)
-- [Usage Example](#usage example)
+- [Usage Example](#usage-example)
 
 ## Installation
   ```
