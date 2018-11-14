@@ -2,7 +2,7 @@
 Crop Photo feature for S2A
 
 // Installation
-npm install photo-cropper --save
+npm install git://github.com/S2A-IO/photo-cropper --save
 
 //Load the required image to crop and initilized it.
 // finalImage is the buffer of read file.
