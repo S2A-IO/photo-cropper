@@ -1,10 +1,11 @@
+"use strict";
 /**
  * This class is use to crop images. It have ability to crop images in three ways:
  * 1- Crop images in square dimensions ( for square cropping give 1 in ratio argument ).
  * 2- Crop images in free shape dimensions ( for free shape cropping give -1 in ratio argument ).
  * 3- Crop images in same as given aspect ratio ( for other cropping give any value in ratio argument ).
  */
-"use strict";
+
 class CropImage {
 
   /**
