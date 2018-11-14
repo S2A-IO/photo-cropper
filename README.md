@@ -1,9 +1,12 @@
 # photo-cropper
 Crop Photo feature for S2A
 
-//Load the required image to crop and initilized it.
+// Installation
+npm install photo-cropper --save
 
-loadImage( it.current[0].finalImage, function callback( img ) {
+//Load the required image to crop and initilized it.
+// finalImage is the buffer of read file.
+loadImage( finalImage, function callback( img ) {
   var ratio = it.url.ratio ? it.url.ratio : 1;
   CropImage.init( img, "canvas", {
     ratio: parseInt( ratio )
