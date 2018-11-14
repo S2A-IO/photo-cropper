@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Crop photo is used to crop/resize photos.",
   "keywords": [
-    "photo-cropper"
+    "photo",
+    "cropper"
   ],
   "license": "UNLICENSED",
   "repository": {
@@ -18,6 +19,10 @@
   "contributors": [
    {
      "name": "Awais Khan",
+     "email": "info@riksof.com"
+   },
+   {
+     "name": "Anas Ahmed",
      "email": "info@riksof.com"
    }
  ],
