@@ -86,7 +86,6 @@ class CropImage {
   initCanvas( id, img ) {
     // Set 'this' in 'me' variable to access the scope inside functions.
     let me = this;
-
     // fabric.Canvas serves as a wrapper around <canvas> element, and is
     // responsible for managing all of the fabric objects on that particular canvas.
     // It takes an id of an element, and returns an instance of fabric.Canvas.
@@ -94,7 +93,6 @@ class CropImage {
       selection: false,
       hoverCursor: this.options.hoverCursor
     });
-
     this.canvas.backgroundColor = this.options.backgroundColor;
     let ctx = this.canvas.getContext("2d");
     let orientation = EXIF.getTag( img, 'Orientation' );
@@ -126,9 +124,7 @@ class CropImage {
     let me = this;
     // Loads image element from given source and passes it to a callback.
     fabric.util.loadImage( src, function( img ) {
-
       me.initCanvas( canvasId, img );
-/*
       let scaleX = me.canvas.width / img.width;
       let scaleY = me.canvas.height / img.height;
       let top = 0, left = 0;
@@ -154,9 +150,10 @@ class CropImage {
 
       // Add image instance in canvas
       me.canvas.add( me.imgInstance );
+
       me.initSelector( me.imgInstance );
       me.canvas.renderAll();
-      me.registerCropEvent();*/
+      me.registerCropEvent();
     });
   }
 

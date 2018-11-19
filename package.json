@@ -31,6 +31,8 @@
   ],
   "homepage": "https://s2a.io",
   "dependencies": {
+  },
+  "peerDependencies": {
     "fabric": "^2.4.3"
   },
   "devDependencies": {
