@@ -31,14 +31,12 @@
   ],
   "homepage": "https://s2a.io",
   "dependencies": {
-  },
-  "peerDependencies": {
+    "fabric": "^2.4.3"
   },
   "devDependencies": {
     "mocha": "^5.2.0",
     "mocha-jsdom": "~1.1.0",
     "chai": "^4.2.0",
-    "canvas": "^2.1.0",
-    "fabric": "^2.4.3"
+    "canvas": "^2.1.0"
   }
 }
