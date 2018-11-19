@@ -1,5 +1,8 @@
 {
   "name": "@s2a/photo-cropper",
+  "jest": {
+    "verbose": true
+  },
   "version": "1.0.0",
   "description": "Crop photo is used to crop/resize photos.",
   "keywords": [
@@ -8,8 +11,8 @@
   ],
   "license": "UNLICENSED",
   "repository": {
-   "type": "git",
-   "url": "git://github.com/S2A-IO/photo-cropper.git"
+    "type": "git",
+    "url": "git://github.com/S2A-IO/photo-cropper.git"
   },
   "scripts": {},
   "author": {
@@ -17,15 +20,25 @@
     "email": "info@riksof.com"
   },
   "contributors": [
-   {
-     "name": "Awais Khan",
-     "email": "info@riksof.com"
-   },
-   {
-     "name": "Anas Ahmed",
-     "email": "info@riksof.com"
-   }
- ],
- "homepage": "https://s2a.io",
- "dependencies": {}
+    {
+      "name": "Awais Khan",
+      "email": "info@riksof.com"
+    },
+    {
+      "name": "Anas Ahmed",
+      "email": "info@riksof.com"
+    }
+  ],
+  "homepage": "https://s2a.io",
+  "dependencies": {
+  },
+  "peerDependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "mocha-jsdom": "~1.1.0",
+    "chai": "^4.2.0",
+    "canvas": "^2.1.0",
+    "fabric": "^2.4.3"
+  }
 }

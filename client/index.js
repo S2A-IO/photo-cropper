@@ -5,6 +5,7 @@
  * 2- Crop images in free shape dimensions ( for free shape cropping give -1 in ratio argument ).
  * 3- Crop images in same as given aspect ratio ( for other cropping give any value in ratio argument ).
  */
+const fabric = require('fabric').fabric;
 
 class CropImage {
 
@@ -123,12 +124,11 @@ class CropImage {
    */
   initImage( src, canvasId ) {
     let me = this;
-
     // Loads image element from given source and passes it to a callback.
     fabric.util.loadImage( src, function( img ) {
 
       me.initCanvas( canvasId, img );
-
+/*
       let scaleX = me.canvas.width / img.width;
       let scaleY = me.canvas.height / img.height;
       let top = 0, left = 0;
@@ -156,7 +156,7 @@ class CropImage {
       me.canvas.add( me.imgInstance );
       me.initSelector( me.imgInstance );
       me.canvas.renderAll();
-      me.registerCropEvent();
+      me.registerCropEvent();*/
     });
   }
 
