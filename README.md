@@ -8,6 +8,10 @@ Crop Photo feature for S2A
   ```
 npm install git://github.com/S2A-IO/photo-cropper --save
   ```
+photo-cropper has the peerDependencies of fabric we have to install it.
+```
+npm install fabric --save
+```
 ## Usage Example
 Load the required image to crop and initialize it.
 
