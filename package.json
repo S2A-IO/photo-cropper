@@ -7,7 +7,21 @@
   "description": "Crop photo is used to crop/resize photos.",
   "keywords": [
     "photo",
-    "cropper"
+    "cropper",
+    "image",
+    "crop",
+    "move",
+    "zoom",
+    "rotate",
+    "scale",
+    "cropper.js",
+    "cropping",
+    "processing",
+    "html",
+    "css",
+    "javascript",
+    "front-end",
+    "web"
   ],
   "license": "UNLICENSED",
   "repository": {
@@ -33,7 +47,7 @@
   "dependencies": {
   },
   "peerDependencies": {
-    "fabric": "^2.4.3"
+    "cropperjs": "^1.4.3"
   },
   "devDependencies": {
     "mocha": "^5.2.0",
