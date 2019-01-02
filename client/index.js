@@ -1,7 +1,7 @@
 /**
  * This is a singleton class is use to create only one itemInstance.
  */
-import Cropper from './js/cropper';
+import Cropper from './../../../cropperjs/src/index';
 var image = null;
 
 /**
@@ -98,4 +98,4 @@ class CropImage {
     if ( this.image != null ) this.image = null;
   }
 }
-module.exports = CropImage;
+export { CropImage };
