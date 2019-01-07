@@ -32,9 +32,8 @@ class CropImage {
             width: imageWidth,
             height: imageHeight
           });
-          cropper.zoomTo(0.1);
+          cropper.zoomTo(0.067);
         },
-
         crop: function (event) {
           let data = JSON.stringify(cropper.getData());
           let cropBoxData = JSON.stringify(cropper.getCropBoxData());
