@@ -1,5 +1,5 @@
 {
-  "name": "photo-cropper",
+  "name": "@s2a/photo-cropper",
   "jest": {
     "verbose": true
   },
