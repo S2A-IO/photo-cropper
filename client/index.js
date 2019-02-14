@@ -22,7 +22,7 @@ class CropImage {
       var customAspectRatio = 0;
       var cropper = new Cropper(image, {
         dragMode: 'move',
-        viewMode: 2,
+        viewMode: 3,
         ready: function (event) {
           /*Zoom the image to its quater size*/
           var imageWidth = cropper.getImageData().naturalWidth;
