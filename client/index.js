@@ -1,7 +1,7 @@
 /**
  * This is a singleton class is use to create only one itemInstance.
  */
-import Cropper from './../../../cropperjs/src/index';
+import Cropper from 'cropperjs';
 var image = null;
 
 /**
